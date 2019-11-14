@@ -27,6 +27,23 @@
 
     <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
 
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDEumD1jEZWx9S1tOrnaAZdR56XEpJ3jJE",
+        authDomain: "another-init-tracker.firebaseapp.com",
+        databaseURL: "https://another-init-tracker.firebaseio.com",
+        projectId: "another-init-tracker",
+        storageBucket: "another-init-tracker.appspot.com",
+        messagingSenderId: "603300661095",
+        appId: "1:603300661095:web:e2f2a27ffbd4f67390d1c2",
+        measurementId: "G-ZTKE7GH59D"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
     
     <title>React App</title>
   </head>
