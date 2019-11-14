@@ -1,8 +1,4 @@
-# IntiativeTracker
-Dungeons &amp; Dragons initiative counter
-
-TODO//:
-
+/*TODO
 > Find Game
 > Create Game
 > Create Password
@@ -22,3 +18,9 @@ Computer Things
 > Express Server
 > Firebase for live updates
 
+*/ 
+
+
+const createGame = (gameName, password) => {
+    
+}
